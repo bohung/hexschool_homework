@@ -44,7 +44,9 @@ table {
 
 * {
   box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
+
 .wraper {
   width: 1000px;
   margin: 0 auto;
@@ -53,73 +55,57 @@ table {
 .header {
   height: 100px;
   background: red;
-  margin-bottom: 10px;
 }
 
 .header img {
-  margin: 30px 0px 0px 10px;
   float: left;
+  margin: 30px 0 0 20px;
 }
 
-.header .about {
+.header ul {
   float: right;
 }
 
-.header .about li {
-  display: block;
+.header ul li {
   float: left;
   margin-right: 10px;
 }
 
-.header .about a {
-  text-decoration: none;
+.header ul li a {
   line-height: 100px;
   color: white;
+  text-decoration: none;
 }
 
-.header .about a:hover {
+.header ul li a:hover {
   color: black;
 }
 
-.topmenu {
-  margin-bottom: 10px;
-}
-
-.topmenu li {
-  float: left;
-  display: block;
-  width: 200px;
-  text-align: center;
-  background: blue;
-}
-
-.topmenu li a {
-  color: white;
-  text-decoration: none;
-  line-height: 50px;
-}
-
-.topmenu li:hover {
-  background: orange;
-}
-
 .main {
-  margin-bottom: 10px;
+  padding: 10px 0;
 }
 
 .menu {
-  float: left;
   width: 200px;
   background: black;
+  float: left;
   color: white;
   padding: 10px;
 }
 
 .content {
-  float: left;
-  width: 790px;
+  width: 580px;
   background: pink;
-  margin-left: 10px;
+  float: left;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.status {
+  width: 200px;
+  background: blue;
+  float: left;
+  padding: 10px;
 }
 
 .clearfix {
@@ -127,6 +113,9 @@ table {
 }
 
 .footer {
-  background: gray;
   height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: bold;
+  background: gray;
 }
