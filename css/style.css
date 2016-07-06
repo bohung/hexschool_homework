@@ -47,11 +47,19 @@ table {
   -moz-box-sizing: border-box;
 }
 
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
 .box {
-  width: 100px;
-  height: 100px;
-  position: fixed;
-  background: black;
-  right: 0;
-  bottom: 0;
+  height: 400px;
+  background: url(../img/logo.png) no-repeat #009872 center;
+  text-align: center;
+  color: white;
+}
+
+.box h2 {
+  padding: 10px;
+  font-size: 36px;
 }
