@@ -47,46 +47,11 @@ table {
   -moz-box-sizing: border-box;
 }
 
-.productList {
-  width: 600px;
-  border: 1px solid red;
-}
-
-.productList .sale {
-  float: left;
-  background: red;
-  color: white;
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 5px;
-}
-
-.productList li {
-  width: 138px;
-  height: 200px;
-  border: 1px solid black;
-  float: left;
-  margin: 5px;
-  padding: 10px;
-  position: relative;
-}
-
-.productList img {
-  margin-top: 20px;
-  width: 100%;
-}
-
-.productList li h2 {
-  font-weight: bold;
-  margin: 10px 0;
-}
-
-.productList li span {
-  color: red;
-  font-size: 20px;
-}
-
-.clearfix {
-  clear: both;
+.box {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  background: black;
+  right: 0;
+  bottom: 0;
 }
