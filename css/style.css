@@ -46,17 +46,3 @@ table {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
-
-.header h1 {
-  float: left;
-}
-
-.header h1 a {
-  background: url(../img/logo.png);
-  width: 174px;
-  height: 36px;
-  display: block;
-  text-indent: 101%;
-  overflow: hidden;
-  white-space: nowrap;
-}
