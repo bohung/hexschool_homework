@@ -47,49 +47,46 @@ table {
   -moz-box-sizing: border-box;
 }
 
-.header {
-  width: 300px;
-  height: 300px;
+.productList {
+  width: 600px;
   border: 1px solid red;
+}
+
+.productList .sale {
+  float: left;
+  background: red;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px;
+}
+
+.productList li {
+  width: 138px;
+  height: 200px;
+  border: 1px solid black;
+  float: left;
+  margin: 5px;
+  padding: 10px;
   position: relative;
-  top: 30px;
 }
 
-.box1 {
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  background: black;
-  bottom: 20px;
-  right: 20px;
-  z-index: 1;
+.productList img {
+  margin-top: 20px;
+  width: 100%;
 }
 
-.box2 {
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  background: pink;
-  bottom: 30px;
-  right: 20px;
-  z-index: -1;
+.productList li h2 {
+  font-weight: bold;
+  margin: 10px 0;
 }
 
-.box3 {
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  background: yellow;
-  bottom: 0;
-  right: 0;
-  z-index: 10;
+.productList li span {
+  color: red;
+  font-size: 20px;
 }
 
-.box4 {
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  background: blue;
-  bottom: -20px;
-  right: -20px;
+.clearfix {
+  clear: both;
 }
