@@ -46,22 +46,3 @@ table {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
-
-.price {
-  margin: 10px;
-}
-
-.price th, .price td {
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  padding: 10px 20px;
-}
-
-.price th {
-  text-align: left;
-  background: #DDD;
-}
-
-.price .important {
-  color: #F33;
-}
