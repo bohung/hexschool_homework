@@ -48,7 +48,9 @@ table {
 }
 
 .box {
-  width: 1002px;
-  height: 405px;
-  background: linear-gradient(to left, red, yellow);
+  height: 200px;
+  width: 200px;
+  background: green;
+  box-shadow: 0px 0px 100px yellow;
+  margin: 20px 20px;
 }
