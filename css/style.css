@@ -46,3 +46,15 @@ table {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
+
+.box {
+  margin: 10px;
+  height: 150px;
+  line-height: 150px;
+  width: 150px;
+  background: black;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  border: 10px solid blue;
+}
