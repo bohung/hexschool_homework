@@ -44,5 +44,49 @@ table {
 
 * {
   box-sizing: border-box;
-  -moz-box-sizing: border-box;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.header .social-link{
+  background: #f6f6f6;
+  height: 30px;
+  padding: 5px 0;
+}
+
+.header ul {
+  float: right;
+}
+
+.header li {
+  float: left;
+  color: #ccc;
+}
+
+.header li a {
+  text-decoration: none;
+  margin: 5px;
+  font-size: 18px;
+}
+
+.header #fb-fan-page {
+  color: #4460a0;
+}
+.header #fb-fan-page:hover {
+  color: #6480c0;
+}
+
+.header #twitter-fan-page {
+  color: #0ac;
+}
+.header #twitter-fan-page:hover {
+  color: #2cf;
 }
