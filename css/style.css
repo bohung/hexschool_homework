@@ -127,6 +127,7 @@ table {
   background: url(../img/banner/bg.png);
   width: 1000px;
   height: 346px;
+  margin-bottom: 40px;
 }
 
 .banner .slogan {
@@ -134,4 +135,37 @@ table {
   color: white;
   font-size: 40px;
   background: rgba(0, 0, 0, 0.2);
+}
+
+.intro .section {
+  float: left;
+  width: 300px;
+  height: 320px;
+  margin: 0 15px;
+  padding: 18px;
+  box-shadow: 1px 1px 10px gray;
+  text-align: justify;
+  font-size: 16px;
+}
+
+.intro .section .image {
+  text-align: center;
+  height: 140px;
+  line-height: 200px; /* 不知道為什麼 line-hight 要下 200px 圖片才有置中的感覺，下 140px 沒用 */
+}
+
+.intro .section h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.intro .section ul {
+  margin-left: 20px;
+}
+
+.intro .section ul li {
+  list-style-type: disc;
+
 }
