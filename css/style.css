@@ -258,3 +258,19 @@ table {
   background: #0b7a5e;
 
 }
+
+.footer {
+  margin-bottom: 100px;
+  padding-left: 20px;
+}
+
+
+.footer ul {
+  float: right;
+}
+
+.footer span {
+  color: #e12d80;
+  font-weight: bold;
+  font-size: 18px;
+}
