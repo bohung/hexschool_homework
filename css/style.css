@@ -137,6 +137,11 @@ table {
   background: rgba(0, 0, 0, 0.2);
 }
 
+.intro {
+  height: 320px;
+  margin-bottom: 40px;
+}
+
 .intro .section {
   float: left;
   width: 300px;
@@ -167,5 +172,32 @@ table {
 
 .intro .section ul li {
   list-style-type: disc;
+}
 
+.diff h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.diff .table {
+  margin: 40px auto;
+  width: 837px;
+}
+
+.diff th, td {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: left;
+  padding: 10px 60px 10px 20px;
+  font-weight: bold;
+}
+
+.diff th {
+  background: #f6f6f6;
+}
+
+.diff .mark {
+  color: #00a67d;
 }
