@@ -109,9 +109,15 @@ table {
 
 .navbar li a {
   line-height: 36px;
+  padding-bottom: 14px;
   color: #0c9;
 }
 .navbar li a:hover {
   border-bottom: 5px solid #0c9;
-  padding-bottom: 18px;
+}
+
+.banner {
+  background: url(../img/banner/bg.png);
+  width: 1000px;
+  height: 346px;
 }
