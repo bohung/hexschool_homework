@@ -56,12 +56,6 @@ table {
   padding-top: 20px;
 }
 
-.header .social-link{
-  background: #f6f6f6;
-  height: 30px;
-  padding: 5px 0;
-}
-
 .header ul {
   float: right;
 }
@@ -73,8 +67,14 @@ table {
 
 .header li a {
   text-decoration: none;
-  margin: 5px;
+  padding: 5px;
   font-size: 18px;
+}
+
+.header .social-link{
+  background: #f6f6f6;
+  height: 30px;
+  padding: 5px 0;
 }
 
 .header #fb-fan-page {
@@ -89,4 +89,29 @@ table {
 }
 .header #twitter-fan-page:hover {
   color: #2cf;
+}
+
+.navbar {
+  padding: 10px 0;
+  height: 56px;
+}
+
+.navbar .logo {
+  float: left;
+  background: url(../img/header/logo.png);
+  width: 170px;
+  height: 36px;
+}
+
+.navbar li {
+  padding: 0px 20px;
+}
+
+.navbar li a {
+  line-height: 36px;
+  color: #0c9;
+}
+.navbar li a:hover {
+  border-bottom: 5px solid #0c9;
+  padding-bottom: 18px;
 }
