@@ -62,7 +62,6 @@ table {
 
 .header li {
   float: left;
-  color: #ccc;
 }
 
 .header li a {
@@ -75,6 +74,15 @@ table {
   background: #f6f6f6;
   height: 30px;
   padding: 5px 0;
+}
+
+.header .social-link li {
+  border-right: 2px solid #ccc;
+  padding: 0px 5px;
+}
+
+.header .social-link li:last-child {
+  border: none;
 }
 
 .header #fb-fan-page {
