@@ -282,6 +282,7 @@ table {
   background: #0c9;
   color: white;
   padding: 5px 10px;
+  cursor: pointer;
 }
 
 .contact-form .submit-btn:hover {
