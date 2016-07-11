@@ -162,7 +162,6 @@ table {
 
 /********************************* intro */
 .intro {
-  height: 320px;
   padding-left: 20px;
   margin-bottom: 40px;
 }
@@ -236,7 +235,6 @@ table {
 /*************************** contact-form */
 .contact-form {
   background: linear-gradient(#006446, #009872);
-  height: 400px;
   margin-bottom: 30px;
 }
 
