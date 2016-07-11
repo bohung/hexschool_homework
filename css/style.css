@@ -56,51 +56,53 @@ table {
   padding-top: 20px;
 }
 
-.header ul {
-  float: right;
-}
-
-.header li {
-  float: left;
-}
-
-.header li a {
-  text-decoration: none;
-  padding: 5px;
-  font-size: 18px;
-}
-
-.header .social-link{
+/******************************* header */
+/************************* social-link */
+.header .social-link {
   background: #f6f6f6;
   height: 30px;
   padding: 5px 0;
 }
 
-.header .social-link li {
+/* ul */
+.header .social {
+  float: right;
+}
+
+.social li {
+  float: left;
   border-right: 2px solid #ccc;
   padding: 0px 5px;
 }
 
-.header .social-link li:last-child {
+.social li:last-child {
   border: none;
 }
 
-.header #fb-fan-page {
+.social li a {
+  text-decoration: none;
+  padding: 5px;
+  font-size: 18px;
+}
+
+#fb-fan-page {
   color: #4460a0;
 }
-.header #fb-fan-page:hover {
+#fb-fan-page:hover {
   color: #6480c0;
 }
 
-.header #twitter-fan-page {
+#twitter-fan-page {
   color: #0ac;
 }
-.header #twitter-fan-page:hover {
+#twitter-fan-page:hover {
   color: #2cf;
-}
+} /************************* social-link */
 
+
+/****************************** navbar */
 .navbar {
-  padding: 10px 20px;
+  padding: 10px 0px 10px 20px;
   height: 56px;
 }
 
@@ -110,26 +112,37 @@ table {
   display: block;
   width: 170px;
   height: 36px;
-
   text-indent: 101%;
   overflow: hidden;
   white-space: nowrap;
 }
 
+/* ul */
+.menu {
+  float: right;
+}
 
-.navbar li {
+.menu li {
+  float: left;
   padding: 0px 20px;
 }
 
-.navbar li a {
+.menu li a {
+  text-decoration: none;
+  padding: 5px;
+  font-size: 18px;
   line-height: 36px;
   padding-bottom: 14px;
   color: #0c9;
 }
-.navbar li a:hover {
-  border-bottom: 5px solid #0c9;
-}
 
+.menu li a:hover {
+  border-bottom: 5px solid #0c9;
+} /****************************** navbar */
+/******************************* header */
+
+
+/****************************** banner */
 .banner {
   padding-top: 95px;
   background: url(../img/banner/bg.png);
@@ -143,8 +156,11 @@ table {
   color: white;
   font-size: 40px;
   background: rgba(0, 0, 0, 0.2);
-}
+} /****************************** banner */
 
+
+
+/********************************* intro */
 .intro {
   height: 320px;
   padding-left: 20px;
@@ -182,7 +198,10 @@ table {
 .intro .section ul li {
   list-style-type: disc;
 }
+/********************************* intro */
 
+
+/********************************** diff */
 .diff h2 {
   text-align: center;
   font-size: 30px;
@@ -210,7 +229,11 @@ table {
 .diff .mark {
   color: #00a67d;
 }
+/********************************** diff */
 
+
+
+/*************************** contact-form */
 .contact-form {
   background: linear-gradient(#006446, #009872);
   height: 400px;
@@ -265,9 +288,11 @@ table {
 
 .contact-form .submit-btn:hover {
   background: #0b7a5e;
+} /*************************** contact-form */
 
-}
 
+
+/********************************** footer */
 .footer {
   margin-bottom: 100px;
   padding-left: 20px;
@@ -282,4 +307,4 @@ table {
   color: #e12d80;
   font-weight: bold;
   font-size: 18px;
-}
+} /********************************** footer */
